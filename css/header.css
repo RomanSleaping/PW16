@@ -1,0 +1,65 @@
+header {
+    height: 132px;
+}
+.header-container {
+    display: flex;
+    height: inherit;
+    margin: 0 auto;
+    gap: 207.5px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Manrope;
+font-weight: 500;
+font-size: 18px;
+width: 507px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: justify;
+}
+
+.logo {
+display: block;
+width: 128px;
+height: 52px;
+padding: 10px 8px;
+}
+.logo svg {
+display: block;
+width: 112px;
+height: 32px;
+}
+.header-linklist {
+    display: flex;
+    gap: 15.43px;
+}
+.header-linklist__link {
+
+width: 38.57143020629883px;
+height: 36px;
+background-color: #FFFFFF1A;
+border-radius: 24.43px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-linklist__item--linkedin {
+width: 15.428571701049805px;
+height: 15.428571701049805px;
+}
+.header-linklist__item--facebook {
+width: 8.00354290008545px;
+height: 15.428571701049805px;
+} 
+.header-linklist__item--twitter {
+width: 9.403122901916504px;
+height: 15.428571701049805px;
+}
+.header-linklist__item--youtube {
+width: 21.27423667907715px;
+height: 15.428571701049805px;
+}

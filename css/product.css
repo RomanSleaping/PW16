@@ -1,0 +1,124 @@
+.Product {
+height: 749px;
+display: flex;
+flex-direction: column ;
+    justify-content: center;
+    gap: 56px;
+}
+
+.Product__upper-flex {
+display: flex;
+justify-content: space-between;
+
+}
+
+.Product__btn-container {
+    display: flex;
+    gap: 18px;
+}               
+.Product__btn {
+     width: 48px;   
+height: 48px;
+background-color: #FFFFFF1A;
+border-radius: 30.4px;
+padding: 12px;
+padding-left: 19.01px; 
+padding-right: 18.25px; 
+padding-top: 14.62px;
+padding-bottom: 14.61px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Product__btn svg {
+    width: 10.741259574890137px;
+height: 18.76500129699707px;
+}
+
+.Product-list {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    transition: 250ms cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+/* .Product__btn--right:focus .Product-list{
+transform: translateX(317px);
+}
+.Product__btn--left:focus .Product-list{
+transform: translateX(-317px);
+} */
+.Product__header{
+font-family: Roboto;
+font-weight: 500;
+font-size: 56px;
+line-height: 94%;
+letter-spacing: -7%;
+}
+.Product-list-item {
+    width: 297px;
+height: 520px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+position: relative;
+z-index: 2;
+}
+.Product-list-item img {
+    width: 297px;
+height: 274px;
+border-radius: 20px;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+}
+.Product-list-item div {
+width: 297px;
+height: 270px;
+padding:24px 30px;
+padding-bottom: 0px;
+border-radius: 20px;
+background-color: #151515;
+display: flex;
+flex-direction: column;
+position: relative;
+z-index: 2;
+}
+.Product-list-item__name {
+font-family: Hind Madurai;
+font-weight: 700;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.Product-list-item__btn {
+width: 237px;
+height: 49px;
+background: #D23166;
+padding-top: 15px;
+padding-right: 46px;
+padding-bottom: 15px;
+padding-left: 46px;
+border-radius: 5px;
+margin-top: 16px;
+color: white;
+}
+.Product-list-item__description {
+margin-top: 18px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+}
+.Product-list-item__cost {
+margin-top: 28px;
+font-family: Hind Madurai;
+font-weight: 500;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: bottom;
+}

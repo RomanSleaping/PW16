@@ -1,0 +1,63 @@
+.hero {
+    display: flex;
+    height: 588px;
+    align-items: center;
+    justify-content: space-between
+}
+.hero--div {
+    width: 587px;
+}
+.hero__signature {
+    font-family: Manrope;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 10%;
+margin-bottom: 20px;
+}
+.hero__header {
+    font-family: Alexandria;
+font-weight: 400;
+font-style: Regular;
+font-size: 57.33px;
+line-height: 94%;
+letter-spacing: -7%;
+margin-bottom: 16px;
+}
+.hero__header--ice-cream {
+    font-family: Alexandria;
+font-weight: 400;
+font-style: Regular;
+font-size: 57.33px;
+line-height: 94%;
+letter-spacing: -7%;
+color: #D23166;
+}
+.hero__text {
+font-family: Manrope;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0%;
+color: #FFFFFF83;
+margin-bottom: 48px;
+}
+.hero__button{
+width: 165;
+height: 49;
+padding-top: 13px;
+padding-right: 50px;
+padding-bottom: 13px;
+padding-left: 50px;
+gap: 10px;
+border-radius: 5px;
+background-color: #D23166;
+color: white;
+}
+.hero__img{
+width: 588px;
+height: 588px;
+}
+

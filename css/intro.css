@@ -1,0 +1,27 @@
+.intro {
+height: 519px;
+}
+.intro__text {
+    box-sizing: content-box;
+    display: inline-block;
+font-family: Alexandria;
+font-weight: 400;
+font-style: Regular;
+font-size: 57.33px;
+line-height: 100%;
+letter-spacing: -7%;
+text-align: center;
+margin: 0 auto;
+margin-top: 129px;
+height: 285px;
+}
+.intro__text--grey {
+/* font-family: Alexandria;
+font-weight: 400;
+font-style: Regular;
+font-size: 57.33px; */
+/* line-height: 100%; */
+/* letter-spacing: -7%;
+text-align: center; */
+color: #FFFFFF33;
+}

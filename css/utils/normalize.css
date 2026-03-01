@@ -1,0 +1,97 @@
+::before,
+::after {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+    color: white;
+    background-color: black;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  max-width: 100%;
+}
+
+a {
+    display: block;
+  text-decoration: none;
+  font-style: normal;
+  color: white;
+}
+
+button {
+
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+section {
+  margin: 0 auto;
+}
+header {
+  margin: 0 auto;
+}
+footer {
+  margin: 0 auto;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  background-color: inherit;
+  border-style: none ;
+}
+main {
+  margin: 0 auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.general-container {
+  box-sizing: border-box;
+  width: 1248px;
+  margin: 0 auto;
+
+}
+svg {
+    display: inline-block;
+    fill: white;
+    height: 15.43px;
+}
+
+
+
